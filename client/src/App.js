@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Customer from './components/Customer';
+import CustomerAdd from './components/CustomerAdd';
 import Paper from '@material-ui/core/Paper';
 import Table from '@material-ui/core/Table';
 import TableHead from '@material-ui/core/TableHead';
@@ -90,6 +91,7 @@ progress = () => {
           </TableBody>
         </Table>
         </Paper>
+        <CustomerAdd/>
      </div>
     );
   }
